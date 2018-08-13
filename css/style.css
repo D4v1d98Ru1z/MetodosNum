@@ -53,4 +53,8 @@ body .contenedor .cajapadre .cajahija .tamaño {
   background-color: #E85B72 !important;
   margin-top: 10%;
 }
+
+body .contenedor .cajapadre .cajahija .calculate {
+  display: none;
+}
 /*# sourceMappingURL=style.css.map */
