@@ -17,9 +17,10 @@ body {
             height: 100vh;
             align-content: center;
             .cajahija {
-                width: 30%;
-                vertical-align: middle;
-                margin-top: 15%;
+                position: absolute;
+                top: 50%;
+                left: 25%;
+                transform: translate(-50%, -50%);
                 .titulo {
                     color: #656567;
                     h2 {
@@ -41,10 +42,19 @@ body {
                 .calculate{
                     display: none;
                 }
+                .textfields{
+                    .insside{
+                        max-width: 400px;
+                    }
+                }
             }
             .caja2{
                 width: 80%;
                 display: none;
+                // position: absolute;
+                // top: 50%;
+                // right: 20%;
+                // transform: translate(-50%, 50%);
                 // display: flex !important;
                 
             }

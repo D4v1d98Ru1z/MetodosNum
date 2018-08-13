@@ -26,9 +26,11 @@ body .contenedor .cajapadre {
 }
 
 body .contenedor .cajapadre .cajahija {
-  width: 30%;
-  vertical-align: middle;
-  margin-top: 15%;
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
 }
 
 body .contenedor .cajapadre .cajahija .titulo {
@@ -55,6 +57,10 @@ body .contenedor .cajapadre .cajahija .tamaño {
 
 body .contenedor .cajapadre .cajahija .calculate {
   display: none;
+}
+
+body .contenedor .cajapadre .cajahija .textfields .insside {
+  max-width: 400px;
 }
 
 body .contenedor .cajapadre .caja2 {
