@@ -51,5 +51,6 @@ body .contenedor .cajapadre .cajahija .titulo h1 {
 body .contenedor .cajapadre .cajahija .tamaño {
   width: 100%;
   background-color: #E85B72 !important;
+  margin-top: 10%;
 }
 /*# sourceMappingURL=style.css.map */

@@ -25,25 +25,31 @@
             <div class="cajahija">
                 <div class="titulo">
                     <h2>Bienvenido</h2>
-                    <h1>Empezemos</h1>
+                    <h1>Empecemos</h1>
                 </div>
                 <form class="col s12">
-                    <div class="row">
+                    <div class="row" id="box">
                         <div class="input-field col s12">
                             <input id="email" type="number" class="validate">
                             <label for="email">Ingrese la cantidad de datos.</label>
                             <span class="helper-text" data-error="Ingrese valor entero" data-success="right">Ejemplo: 7.</span>
                         </div>
+
                     </div>
                 </form>
-                <button class="btn waves-effect waves-light tamaño" type="submit" name="action">Continuar
+                <button onclick="dataShow()" id="but" class="btn waves-effect waves-light tamaño" type="submit" name="action">Continuar
                     <i class="material-icons right">send</i>
                 </button>
+                <div class="textfields">
+                    <div class="input-field col s12" id="inputs">
+                        <!-- <input type="text" placeholder="prueba" name="" id=""> -->
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 
-
+    <script src="js/app.js"></script>
     <!--JavaScript at end of body for optimized loading-->
     <script type="text/javascript" src="js/materialize.min.js"></script>
 </body>
