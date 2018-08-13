@@ -4,10 +4,8 @@ function dataShow() {
 
     if (data != 0) {
         document.getElementById("box").style.display = "none";
-        // console.log(data);
         document.getElementById("but").style.display = "none";
         for (var x = 0; x < data; x++) {
-            // console.log(x);
             var form = document.createElement("INPUT");
             form.setAttribute("type", "number");
             form.setAttribute("placeholder", "Ingrese valor.");
@@ -26,12 +24,11 @@ function process(){
     var newData;
     console.log("calculandoo wuuu c: "+ data);
     for(var i = 0; i < data; i++){
-        newData = parseInt(document.getElementById("generated"+i).value);
-        console.log(newData);
-        
-        promedio = promedio + newData;
-        
+        newData = parseInt(document.getElementById("generated"+i).value);      
+        promedio = promedio + newData;        
     }
     var total = promedio / data;
-    console.log(total);
+    document.getElementById("Vpromedio").innerHTML = " " +total;
+    document.getElementById("box2").style.display = "flex";
+    
 }

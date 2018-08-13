@@ -6,14 +6,13 @@
 }
 
 body {
-  background-color: #F1F1EF;
+  background-image: url("../img/bg.png");
+  background-repeat: no-repeat;
 }
 
 body .contenedor {
   width: 100%;
   height: 100vh;
-  background-image: url("../img/bg.png");
-  background-repeat: no-repeat;
 }
 
 body .contenedor .cajapadre {
@@ -27,7 +26,6 @@ body .contenedor .cajapadre {
 
 body .contenedor .cajapadre .cajahija {
   width: 30%;
-  height: 100%;
   vertical-align: middle;
   margin-top: 15%;
 }
@@ -55,6 +53,11 @@ body .contenedor .cajapadre .cajahija .tamaño {
 }
 
 body .contenedor .cajapadre .cajahija .calculate {
+  display: none;
+}
+
+body .contenedor .cajapadre .caja2 {
+  width: 80%;
   display: none;
 }
 /*# sourceMappingURL=style.css.map */
